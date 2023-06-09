@@ -20,5 +20,7 @@ Antes que nada, he puesto un locale de hora para presentar las horas de los regi
 
 Por ultimo tenemos nuestra funcion main que es un bucle para invocar cualquiera de las funciones anteriores.
 
+> Probablemente le crearé una interfaz con flask, y actualizare el repositorio.
+
 
 ### Gracias por leer :) 🎯
