@@ -1,4 +1,4 @@
-# Check-in-python-app
+# Check-in-employees-app
 
 ### Esta es una app de python sencilla que se conecta a una base de datos SQLite y permite registar la entrada y salida de los empleados.
 
