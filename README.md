@@ -12,7 +12,9 @@ Importar modulos necesarios (Sqlite3, datetime, locale)
 Nos conectamos a la base de datos e intanciamos un cursor.
 
 Antes que nada, he puesto un locale de hora para presentar las horas de los registros en el formato español, luego nos conectamos a la base de datos SQLite para empezar a crear funciones que interactuen con ella.
-**Funciones**
+
+**Funciones:**
+
 1. Una Primera función escribir registros de entrada del empleado, introduciendo solo el ID del cliente.
 2. La segunda es para registrar la salida de la misma manera.
 3. La siguiente obtiene los registros de empleados que llegaron despues de la hora predefinida en las **variables globales** de entrada y salida de la empresa.
