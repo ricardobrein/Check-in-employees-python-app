@@ -83,32 +83,38 @@ def agregar_empleado(id_empleado, nombre, apellido):
         print("El ID de empleado ya existe en la tabla. No se pudo agregar el empleado.")
 
 
-# Interfaz de usuario
-while True:
-    print("1. Registrar Entrada")
-    print("2. Registrar Salida")
-    print("3. Obtener Registros Anteriores")
-    print("4. Agregar un Nuevo Empleado")
-    print("5. Salir")
-    choice = input("Seleccione una opción: ")
+# Función principal del programa
+def main():
+    # Interfaz de usuario
+    while True:
+        print("1. Registrar Entrada")
+        print("2. Registrar Salida")
+        print("3. Obtener Registros Anteriores")
+        print("4. Agregar un Nuevo Empleado")
+        print("5. Salir")
+        choice = input("Seleccione una opción: ")
 
-    if choice == '1':
-        id_empleado = input("Ingrese el ID del empleado: ")
-        register_entradas(id_empleado, 'Entrada')
-    elif choice == '2':
-        id_empleado = input("Ingrese el ID del empleado: ")
-        register_salidas(id_empleado, 'Salida')
-    elif choice == '3':
-        fuera_horario()
-    elif choice == '4':
-        id_empleado = input('Ingrese el ID del empleado: ')
-        nombre = input('Ingrese el nombre del nuevo empleado: ')
-        apellido = input('Ingrese el apellido: ')
-        agregar_empleado(id_empleado, nombre, apellido)
-    elif choice == '5':
-        break
-    else:
-        print("Opción inválida. Intente nuevamente.")
+        if choice == '1':
+            id_empleado = input("Ingrese el ID del empleado: ")
+            register_entradas(id_empleado, 'Entrada')
+        elif choice == '2':
+            id_empleado = input("Ingrese el ID del empleado: ")
+            register_salidas(id_empleado, 'Salida')
+        elif choice == '3':
+            fuera_horario()
+        elif choice == '4':
+            id_empleado = input('Ingrese el ID del empleado: ')
+            nombre = input('Ingrese el nombre del nuevo empleado: ')
+            apellido = input('Ingrese el apellido: ')
+            agregar_empleado(id_empleado, nombre, apellido)
+        elif choice == '5':
+            break
+        else:
+            print("Opción inválida. Intente nuevamente.")
 
-# Cerrar la conexión a la base de datos
-conn.close()
+    # Cerrar la conexión a la base de datos
+    conn.close()
+
+
+if __name__ == "__main__":
+    main()
