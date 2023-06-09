@@ -4,7 +4,7 @@
 
 Motivación: Practicar deliberada de Python y la conexión a bases SQL.
 
-En el cuaderno de jupyter teneos la creacion de la Base de datos y las tablas, cree 3 tablas para insertar los registros de entrada y salida de los empleados. Además cree 20 registros ficticios para relaizar pruebas.
+**En el cuaderno de jupyter** tenemos la creacion de la Base de datos y las tablas, cree 3 tablas para insertar los registros de entrada y salida de los empleados. Además cree 20 registros ficticios para relaizar pruebas.
 
 ## Explicando un poco el código de la App
 
@@ -21,4 +21,4 @@ Antes que nada, he puesto un locale de hora para presentar las horas de los regi
 Por ultimo tenemos nuestra funcion main que es un bucle para invocar cualquiera de las funciones anteriores.
 
 
-### Gracias por leer :) 
+### Gracias por leer :) 🎯
