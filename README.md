@@ -2,7 +2,7 @@
 
 ### Esta es una app de python sencilla que se conecta a una base de datos SQLite y permite registar la entrada y salida de los empleados.
 
-Motivación: Practicar deliberada de Python y la conexión a bases SQL.
+**Motivación:** Practica deliberada de Python y la conexión a bases SQL.
 
 **En el cuaderno de jupyter** tenemos la creacion de la Base de datos y las tablas, cree 3 tablas para insertar los registros de entrada y salida de los empleados. Además cree 20 registros ficticios para relaizar pruebas.
 
